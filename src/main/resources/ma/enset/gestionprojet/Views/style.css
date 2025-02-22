@@ -1,0 +1,98 @@
+.tab-pane {
+    -fx-background-color: #f8f9fa; /* Couleur claire */
+}
+
+.tab {
+     -fx-background-color:#fefefe;/* Couleur Bootstrap */
+    -fx-text-fill: white;
+}
+
+.tab:selected {
+    -fx-background-color: #17d380;
+}
+/* Style de base BootstrapFX */
+.form-control {
+    -fx-padding: 6px;
+    -fx-border-color: black;
+    -fx-border-radius: 2px;
+    -fx-background-radius: 0px;
+    -fx-background-color: white;
+    -fx-pref-height: 30px;
+}
+
+/* Effet au focus */
+.form-control:focused {
+    -fx-border-color: #007bff;
+    -fx-background-color: #fefefe;
+}
+
+/* Style d'erreur */
+.form-control.error {
+    -fx-border-color: #dc3545; /* Rouge Bootstrap si erreur */
+    -fx-background-color: #f8d7da;
+}
+/* Style général pour tous les champs */
+.text-field, .text-area, .combo-box, .date-picker {
+    -fx-border-color: black; /* Bordure noire */
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Effet au survol */
+.text-field:hover, .text-area:hover, .combo-box:hover, .date-picker:hover {
+    -fx-border-color: #505050; /* Gris foncé au survol */
+}
+
+/* Effet focus (sélection) */
+.text-field:focused, .text-area:focused, .combo-box:focused, .date-picker:focused {
+    -fx-border-width: 2px;
+    -fx-border-color: #007bff; /* Bleu Bootstrap */
+}
+
+/* Style du TextArea */
+.text-area {
+    -fx-pref-height: 200px;
+    -fx-pref-width: 200px;
+}
+
+/* Style de la ComboBox */
+.combo-box {
+    -fx-pref-width: 150px;
+}
+
+/* Effet pour le bouton déroulant de la ComboBox */
+.combo-box .arrow {
+    -fx-background-color: black; /* Icône en noir */
+}
+
+/* Amélioration de la liste déroulante */
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+/* Effet au survol des éléments de la liste */
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+.text-field.error, .text-area.error, .combo-box.error, .date-picker.error {
+    -fx-border-color: red; /* Bordure rouge pour l'erreur */
+    -fx-border-width: 2px;
+    -fx-background-color: #f8d7da; /* Fond légèrement rouge pour indiquer l'erreur */
+}
+.error-message {
+    -fx-font-size: 12px;
+    -fx-text-fill: red; /* Texte rouge pour l'erreur */
+    -fx-padding: 5px;
+    -fx-margin-top: 2px;
+}
+
+
+
+
+
+
+
+
